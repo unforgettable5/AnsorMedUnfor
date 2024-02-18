@@ -1,0 +1,30 @@
+/* header */
+body{
+    padding: 0;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+div{
+    display: block;
+}
+.container{
+    max-width: 1160px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header img{
+    display: block;
+}
+.header:hover{
+    color:#DE2E54;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 24px;
+}
