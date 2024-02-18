@@ -6,6 +6,9 @@ body{
 *{
     box-sizing: border-box;
 }
+*:hover{
+color:#DE2E54;
+}
 div{
     display: block;
 }
@@ -18,9 +21,6 @@ div{
 }
 .header img{
     display: block;
-}
-.header:hover{
-    color:#DE2E54;
 }
 .header-container{
     display: flex;
