@@ -6,11 +6,16 @@ body{
 *{
     box-sizing: border-box;
 }
-*:hover{
-color:#DE2E54;
+
+*:focus{
+    outline: 3px solid #DE2E54;
+    outline-offset: 5px;
+    border-radius: 3px;
 }
+
 div{
     display: block;
+    border-radius:5px;
 }
 .container{
     max-width: 1160px;
@@ -22,6 +27,12 @@ div{
 .header img{
     display: block;
 }
+.header img{
+    outline: 1px dashed #0EB4C1;
+    outline-offset: 5px;
+    border-radius:5px;
+}
+
 .header-container{
     display: flex;
     justify-content: space-between;
