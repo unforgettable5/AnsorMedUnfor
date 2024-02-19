@@ -231,3 +231,115 @@ div{
     justify-content: center;
     align-items:center;
 }
+/* footer */
+.footer-div{
+    background: #0EB4C1;
+}
+.footer-div h2{
+    margin-top: 0;
+    color: #FFF;
+    font-family: "Kanit";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-top:60px;
+}
+.footer-button{
+    text-decoration: none;
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid #FFF;
+    color: #FFF;
+}
+.footer-button-1:hover{
+    border-radius: 8px;
+    border: 2px solid #DE2E54;
+    background: #DE2E54;
+}
+.footer-button-1:active{
+    border-radius: 8px;
+    border: 2px solid #DE2E54;
+    opacity: 0.6;
+    background: #DE2E54;
+}
+.footer-div-2{
+    justify-content: center;
+    display: flex;
+    color: #FFF;
+    font-family: "Kanit";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.footer-button-1{
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 76px;
+}
+.footer-button-2{
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 76px;
+}
+.footer-button-2:hover{
+    border-radius: 8px;
+    border: 2px solid #DE2E54;
+    background: #DE2E54;
+}
+.footer-button-2:active{
+    border-radius: 8px;
+    border: 2px solid #DE2E54;
+    opacity: 0.6;
+    background: #DE2E54;
+}
+.footer-2{
+    background:#222;
+}
+.footer-final{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.footer-nav-li{
+    text-decoration: none;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-left: 32px;
+}
+.footer-nav-li:hover{
+    color:#DE2E54;
+    box-shadow: 1px 1px 10px 0 #DE2E54;
+    border-radius:3px
+}
+.footer-nav-li:active{
+    opacity: 0.6;
+}
+.navli{
+    margin-left: 0 ;
+}
+.footer-nav-ul{
+    list-style: none;
+    display: flex;
+}
+.navigation{
+    display: flex;
+}
+.footer-final-3{
+    display: flex;
+}
