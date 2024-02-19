@@ -248,6 +248,10 @@ div{
     align-items:center;
     padding-top:60px;
 }
+.footer-final{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 .footer-button{
     text-decoration: none;
     display: flex;
